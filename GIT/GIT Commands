@@ -1,0 +1,24 @@
+
+git init -  Creates new repository
+
+git status -  Displays the state of the repository
+
+git add <filename> -  Will add the specified file
+or
+git add . -  Will add all the files
+
+git commit -m "<Any message>" -  records the changes into repository with message
+
+git remote add origin githubUrl -  To get git URL for the remote repository and add credentials if needed
+
+  git config --global user.email "<github@email.com>" - To set the global email
+  git config --global user.name "<Github username>" - To set the global username
+  - Perform above two to avoid re-entering the credentails
+  
+git push -u origin master -  Push changes into the master branch within the repository
+
+git log -  to check the logs/history
+
+git --help -  For help 
+
+

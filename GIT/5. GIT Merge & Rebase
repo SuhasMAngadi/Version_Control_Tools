@@ -1,0 +1,19 @@
+GIT Merge: Merges different branches without effecting the history
+
+Syntax:  git merge <branchname>
+
+- Non-destructive operation and preserves history
+- Existing branches are not changed in any way, but simply merged together
+- All the commits on a feature branch are combined into a single commit on the master branch
+- Best used when target branch is shared
+
+-----------------------------------------------------------------------
+
+GIT Rebase: Integrates the changes from one branch into another
+
+Syntax:  git rebase <branchname>
+
+- Moves the feature branch to begin on the end of master branch
+- Re-writes project history
+- Linear and cleaner project history is obtained
+- Best used when target branch is private

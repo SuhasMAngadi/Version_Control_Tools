@@ -1,0 +1,9 @@
+
+git branch <branchname> -  Creates new branch
+
+git checkout <branchname> -  Checkout the branch, i.e switch between the currently active branch
+
+git merge <branchname> -  Merge new branch to master branch
+
+git branch -d <branchname> -  delete branch from local
+git push origin --delete <branchname> -  delete branch from remote repository

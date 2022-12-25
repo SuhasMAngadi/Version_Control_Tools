@@ -54,6 +54,7 @@ git push origin -delete <tagname>
 git tag -d <tagname1> <tagname2> - deletes the specified tags from local repository
 git push origin -d <tagname1> <tagname2> -  deletes the specified tags from remote origin
 
+
 8. Create a Tag from past commits
 
 git tag <tagname> <reference of commit/chechsum>

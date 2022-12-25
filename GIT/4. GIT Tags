@@ -4,5 +4,62 @@ Tags references to specific points in GIT history
 --------------------------------------------------
 GIT Tag commands:
 
+1. Checkout the branch where you want to create the tag
+
+git checkout <branchname>
+
+
+2. Create a tag
+
+git tag <tagname> - Light weight tag
+or
+git tag -a <tagname> -m "message" - Annotated tag (carries extra metadata like message, sender data, date, email etc)
+
+
+3. Display the tags
+
+git tag - displays all the tags
+or
+git show <tagname> - displays specified tag
+or
+git tag -l "<partoftag>.*" - displays all the tags which contains <partoftag>
+
+
+4. push tags to remote repository
+
+git push origin <tagname> - pushes specified tag to remote origin
+or
+git push origin --tags - pushes all the tags to remote origin
+or
+git push --tags - to push all the tags at once
+
+
+5. Delete the tags
+
+git tag -d <tagname> - delete the specified tag
+or
+git tag --delete <tagname>
+
+
+6. Delete the tags from remote repository
+
+git push origin -d <tagname> - deletes the specified tag from remote origin
+or 
+git push origin -delete <tagname>
+
+
+7. Delete Multiple tags
+
+git tag -d <tagname1> <tagname2> - deletes the specified tags from local repository
+git push origin -d <tagname1> <tagname2> -  deletes the specified tags from remote origin
+
+8. Create a Tag from past commits
+
+git tag <tagname> <reference of commit/chechsum>
+- reference of commit is nothing but 40 digit checksum number obtained by using git log command on the required commit (past),
+instead of entering full 40 digits, it is enough to specify first 6 digits of checkksum number
+
+
+
 
  

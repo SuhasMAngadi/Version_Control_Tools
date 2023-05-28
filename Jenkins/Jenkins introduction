@@ -6,7 +6,7 @@ Jenkins:
 Setup on windows:
 
 1. Check java version by 'java -version' in cmd and have supported version of java compatible with jenkins
-2. Download jenkins.war file
+2. Download jenkins.war file, open cmd -> change the directory by using 'cd <directory path>'
 3. Run 'java -jar jenkins.war --httpPort=9191' in cmd (default port number will be 8080)
 4. Once done, goto browser and enter http://localhost:9191
 5. Provide password (available in cmd after step 3) and complete the setup

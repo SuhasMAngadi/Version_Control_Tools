@@ -1,0 +1,9 @@
+Create the first Job on Jenkins:
+
+How to connect to Git Remote Repository in Jenkins (GitHub):
+
+Step 1 Get the url of the remote repository
+Step 2 Add the git credentials on Jenkins
+Step 3 In the jobs configuration goto SCM and provide git repo url in git section
+Step 4 Add the credentials
+Step 5 Run job and check if the repository is cloned

@@ -3,7 +3,7 @@ Jenkinsfile : Pipeline as a code
 Step 1 Start Jenkins
 Step 2 Install Pipeline Plugin
 Step 3 Create a new job (type: Pipeline)
-Step 4 Create Jenkinsfile in Pipeline section 
+Step 4 Create Jenkinsfile in Pipeline section (Configure -> Pipeline)
        i.e select definition = pipeline script, script type: <helloworld>
 Step 5 Run and check the output
 
@@ -13,6 +13,7 @@ How to get jenkinsfile from Git SCM
 Step 1 : Create a new job or use existing job (type: Pipeline)
 Step 2 : Create a repository in GitHub
 Step 3 : Add Jenkinsfile in the repository
-Step 4 : Under Jenkins job ＞ Pipeline section ＞ Select Definition = Pipeline script from SCM
+Step 4 : Under Jenkins job ＞ Pipeline section ＞ Select Definition = Pipeline script from SCM,
+         SCM = Git, Select Credentials, select 'Branches to build' to main or master (main in our case)
 Step 5 : Add repository and jenkinsfile location in the job under Pipeline section
-Step 6 : Save & Run
+Step 6 : Save & Run (Build)

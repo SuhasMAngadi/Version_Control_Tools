@@ -1,6 +1,8 @@
 
 git branch <branchname> -  Creates new branch
 
+git fetch origin <branchname> - Fetches remote branch to your local machine
+
 git checkout <branchname> -  Checkout the branch, i.e switch between the currently active branch
 
 git merge <branchname> -  Merge new branch to master branch

@@ -7,6 +7,10 @@ git add <filename> -  Will add the specified file
 or
 git add . -  Will add all the files
 
+git restore <filename> - Will restore the specified file (the one which you're not interested to commit)
+or
+git restore . - Will restore all the files (the ones which you're not interested to commit)
+
 git commit -m "<Any message>" -  records the changes into repository with message
 
 git remote add origin githubUrl -  To get git URL for the remote repository and add credentials if needed
@@ -20,6 +24,7 @@ git push -u origin master -  Push changes into the master branch within the repo
 git log -  to check the logs/history
 
 git --help -  For help 
+
 
 
 
